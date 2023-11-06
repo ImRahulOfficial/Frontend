@@ -1,0 +1,83 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.first-image,
+.second-image,
+.third-image,
+.fourth-image {
+    min-height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.first-image {
+    background-image: url('aster-8281322.jpg');
+    opacity: 0.8;
+}
+
+.second-image {
+    background-image: url('butterfly-1391809.jpg');
+}
+
+.third-image {
+    background-image: url('landscape-8253576.jpg');
+}
+
+.fourth-image {
+    background-image: url('woman-1509956.jpg');
+    opacity: 0.8;
+}
+
+section {
+    text-align: center;
+    padding: 3rem 5rem;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #0f0f0f;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.image {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    ;
+}
+
+.image div {
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.first-image span {
+    background-color: #111;
+    padding: 20px;
+    margin: 0 auto;
+}
